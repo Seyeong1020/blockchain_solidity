@@ -140,7 +140,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week8/20241623_오세영_Bank.sol": "Bank"
+			"week8/Bank.sol": "Bank"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -154,12 +154,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week8/20241623_오세영_Bank.sol": {
-			"keccak256": "0x9aa1ee66d84d4bdf73e3898b2aecf548e77471f82e4d310b5c85238c61f6e6bc",
+		"week8/Bank.sol": {
+			"keccak256": "0x6d53a93086c3e325cdb5dd200ccb9aa44253b4ccc056f1291a1cdac983bfc6a4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b43b91adf4dd173be89709c83d91fa52bce7455493021baeeb25bca913ba348f",
-				"dweb:/ipfs/QmWxkh1vtpoH9WriKJ4dZstbiN7H6AZ5W4hQhcPsXqCr1q"
+				"bzz-raw://3e0134ad7ed3cb757dde87d657c5d82754edd065fa5a8c35a4f520c725e7a918",
+				"dweb:/ipfs/QmT1s5ymjViAtEciWEhxTFGUqqVQfcKwWNAKkyyAB4Jyy5"
 			]
 		}
 	},

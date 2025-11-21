@@ -7,40 +7,51 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "mulA",
-				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Occupy",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "book",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "mulB",
+				"name": "currentStatus",
+				"outputs": [
+					{
+						"internalType": "enum HotelRoom.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -59,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/modifierOrder.sol": "modifierOder"
+			"week11/HotelRoom.sol": "HotelRoom"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -73,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6/modifierOrder.sol": {
-			"keccak256": "0x23bb597291e797228b0d50db10e34eb2b74a80756d7226195cab8f0784f68b7d",
-			"license": "MIT",
+		"week11/HotelRoom.sol": {
+			"keccak256": "0x582a70353942d282bce34305c4b2068dcf660038e600722573eaff01762c6bf2",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9d58be96bde0ea691a0201362c78ad69784712c3b8cf70eb3501d481477c7ad9",
-				"dweb:/ipfs/QmWZmRyRoKBjCzx4z8cymHs9YeHEUvkUPHfSNLKvNPbpqu"
+				"bzz-raw://021a238d2ee5c8b2446152a2bce98004575ad58c440a376b39d93ac1d9e458f0",
+				"dweb:/ipfs/QmXRLxUHBgQwkipEu4Eur5MQENqfuou8d3RM1QGUwKbmhV"
 			]
 		}
 	},
