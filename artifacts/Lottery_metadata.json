@@ -137,11 +137,11 @@
 	},
 	"sources": {
 		"week11/Lottery.sol": {
-			"keccak256": "0x2b69a467e7bb3d4d5a5fb33ad2229f780c03942af54b06c0a0552e33f95fc571",
+			"keccak256": "0x7b539d1f013a311e10c645f88be0fbd374e57612e987ed1cb35b7d1b2aa379e3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b6ab1abfc5c7803ab7282eb95b6ae7ccc7fe667f0b5de9dcec7caedc36889055",
-				"dweb:/ipfs/QmaZxJXvL8AynEbDkdx57327CHcceJahYiA5t9Mq2PGqRn"
+				"bzz-raw://86a1b65a8fbe5c4103f3f91d08484a131a848ea5528ccb5b93f2c2d619539a85",
+				"dweb:/ipfs/QmYuREhhQv2YmXwrZ75SGka4Loe7V9SBGw5w1ruvkbaxy3"
 			]
 		}
 	},

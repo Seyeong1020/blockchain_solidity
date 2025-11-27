@@ -18,32 +18,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "advancedPhase",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "chairperson",
 				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "currentPhase",
-				"outputs": [
-					{
-						"internalType": "enum Ballot.Phase",
-						"name": "",
-						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -150,7 +130,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week11/Ballot.sol": "Ballot"
+			"week10/Ballot.sol": "Ballot"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -164,12 +144,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week11/Ballot.sol": {
-			"keccak256": "0x8d9bd443e4cbc50fa918d74715725e7c702f434539807908a2b2c0d3a2a342e4",
+		"week10/Ballot.sol": {
+			"keccak256": "0xb11e3af04cc5e81f75b64e5f3f70235c5bce8a7ef66c5ed73cb3a07491c03c66",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7389cfac5acdcf8c09581bdc22fe74d1d9aba7439ccdeef6c8b9d9fe3b06bf69",
-				"dweb:/ipfs/QmYbUz5Wh8AMPwXQRK5mKruLGe9NDTawGwiHroPpDf5tMv"
+				"bzz-raw://4fd2eb8dd81fdde158e00c05b7296ce7c0957d7e5bef409bae10a2031ab3ec5f",
+				"dweb:/ipfs/Qmek6MumCnFBrk5ijGBNmoiBd31TdT9U9T7F4haW7cUUu1"
 			]
 		}
 	},
