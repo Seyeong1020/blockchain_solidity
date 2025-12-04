@@ -71,8 +71,9 @@ contract ERC20StdToken {
         }
     }
 
+    // 특정 주소에 토큰 사용 권한 부여
     function approve(address _spender, uint256 _value) public returns (bool success){
-        allowed[msg.sender][_spender] = _value;
+        allowed[msg.sender][_spender] = _value; //_value만큼 _spender에게 권한 부여
         emit Approval( msg.sender, _spender, _value); // Approval 이벤트 발생
         return true;
     }

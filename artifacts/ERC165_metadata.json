@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceID",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week12/ERC721StdToken.sol": "ERC165"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week12/ERC721StdToken.sol": {
+			"keccak256": "0x0050869ca9aeb8a0420b546088d2f323765ce7479df481faa19de6bba9d61c5f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a7a0be5d92ab108a6aed01a6242522fe5359681df15008113c282d9e8b9b3277",
+				"dweb:/ipfs/QmXFdYNwVMLCTVv735F1eYezgVRw1WLwETBD3hQgy6m1to"
+			]
+		}
+	},
+	"version": 1
+}

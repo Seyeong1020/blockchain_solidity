@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week12/ERC721StdToken.sol": "Name"
+			"week12/ERC721StdToken.sol": "ERC721TokenRece"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"week12/ERC721StdToken.sol": {
-			"keccak256": "0xed6724b2f97269036e6e8a75d6c61964a5bf25cc2e06d59dc9381432671671b2",
+			"keccak256": "0x9c1b75ea85506a40df25e49dfdf8e7a7ac7cd62a699e96e2657baaca57bc3f70",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c3751505ec53e90034e9236e770311b11fd4300f2b86c87fd3b138bd8048a97d",
-				"dweb:/ipfs/Qmb7hXcySkzdMz6GQn3k99xFg4xK8Px7FE9o7YA1PGGmAs"
+				"bzz-raw://3d2eeba5ded0de1953b151e15e52bb6b218e681c348a0dd856cbc4b697599e59",
+				"dweb:/ipfs/QmRzTZNEFdns1nZtEDog3ju7ujS458YAzbCq2HJHkt4tXH"
 			]
 		}
 	},
